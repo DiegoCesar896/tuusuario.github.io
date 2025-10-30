@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aprende Inglés por Niveles</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #b3e5fc, #e1bee7);
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #007acc;
+      color: white;
+      padding: 15px;
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    .nivel {
+      background-color: white;
+      margin: 20px;
+      padding: 15px;
+      border-radius: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    h2 {
+      color: #007acc;
+    }
+
+    audio {
+      margin-top: 10px;
+      width: 90%;
+    }
+
+    footer {
+      margin-top: 30px;
+      padding: 10px;
+      background-color: #007acc;
+      color: white;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>🎧 Aprende Inglés por Niveles</header>
+
+  <div class="nivel">
+    <h2>Nivel A1 (Básico)</h2>
+    <p>Aprende frases simples y saludos.</p>
+    <audio controls>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+      Tu navegador no soporta audio.
+    </audio>
+  </div>
+
+  <div class="nivel">
+    <h2>Nivel A2 (Elemental)</h2>
+    <p>Escucha conversaciones cotidianas.</p>
+    <audio controls>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/mpeg">
+      Tu navegador no soporta audio.
+    </audio>
+  </div>
+
+  <div class="nivel">
+    <h2>Nivel B1 (Intermedio)</h2>
+    <p>Mejora tu comprensión con historias cortas.</p>
+    <audio controls>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" type="audio/mpeg">
+      Tu navegador no soporta audio.
+    </audio>
+  </div>
+
+  <div class="nivel">
+    <h2>Nivel B2 (Avanzado)</h2>
+    <p>Practica diálogos reales y entrevistas.</p>
+    <audio controls>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3" type="audio/mpeg">
+      Tu navegador no soporta audio.
+    </audio>
+  </div>
+
+  <div class="nivel">
+    <h2>Nivel C1 (Experto)</h2>
+    <p>Escucha charlas y temas académicos.</p>
+    <audio controls>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3" type="audio/mpeg">
+      Tu navegador no soporta audio.
+    </audio>
+  </div>
+
+  <footer>© 2025 Aprende Inglés con Audios</footer>
+
+</body>
+</html>
